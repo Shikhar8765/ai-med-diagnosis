@@ -1,0 +1,10 @@
+# Ignore local environment
+.venv/
+
+# Ignore build files
+__pycache__/
+*.log
+*.pt
+*.pth
+*.zip
+*.tar.gz
