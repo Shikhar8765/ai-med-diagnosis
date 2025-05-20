@@ -1,3 +1,9 @@
-sdk: docker
-gpu: true
-app_port: 8000
+# .huggingface.yml
+
+title: AI Medical Diagnosis
+emoji: 🧠
+colorFrom: blue
+colorTo: green
+sdk: streamlit
+app_file: service/app.py
+pinned: false

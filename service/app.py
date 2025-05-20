@@ -7,8 +7,8 @@ from PIL import Image
 import os
 
 # Load your trained model
-engine = InferenceEngine("../2_models/weights/resnet50_med.pth",
-                         ["Normal", "Pneumonia"])
+engine = InferenceEngine("2_models/weights/resnet50_med.pth", ["Normal", "Pneumonia"])
+
 
 st.set_page_config(page_title="AI Medical Diagnosis", layout="centered")
 st.title("🧠 AI-Powered Chest X-ray Diagnosis")
