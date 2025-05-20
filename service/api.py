@@ -8,7 +8,7 @@ from PIL import Image
 
 app = FastAPI(title="AI Chest X-ray Diagnosis API")
 
-engine = InferenceEngine("../2_models/weights/resnet50_med.pth",
+engine = InferenceEngine("2_models/weights/resnet50_med.pth",
                          ["Normal", "Pneumonia"])
 
 @app.post("/predict")
